@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('./Inter-Regular.woff') format('woff');
+    src: url('./Inter-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('./Inter-Bold.woff') format('woff');
+    src: url('./Inter-Bold.woff2') format('woff2');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../styles/Inter-SemiBold.woff') format('woff');
+    src: url('../styles/Inter-SemiBold.woff2') format('woff2');
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
