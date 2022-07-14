@@ -1,0 +1,8 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: calc(100% - 96px);
+    border: 1.1px solid royalblue;
+}
