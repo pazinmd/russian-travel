@@ -1,0 +1,6 @@
+.places {
+  border: 1.1px solid royalblue;
+  margin: 0 auto;
+  padding: 92px 0 0 0;
+  width: calc(100% - 2*148px);
+}

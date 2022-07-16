@@ -1,0 +1,14 @@
+.footer {
+  width: calc(100% - 2*48px);
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  padding: 92px 0 24px 0;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    width: 100%;
+  }
+}

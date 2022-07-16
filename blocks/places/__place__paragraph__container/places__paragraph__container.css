@@ -1,0 +1,6 @@
+.places__place__paragraph__container {
+  border: 1.1px solid royalblue;
+  display: grid;
+  grid-template-rows: max-content max-content;
+  row-gap: 26px;
+}
