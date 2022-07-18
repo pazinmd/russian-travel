@@ -13,3 +13,15 @@
 .footer__link:hover {
   opacity: 0.6;
 }
+
+@media screen and (max-width:767px) {
+  .footer__link{
+    line-height: 24px;
+    font-size: 24px;
+    padding-bottom: 32px;
+    padding-right:0 ;
+}
+.footer__link:last-child {
+  padding: 0;
+}
+}

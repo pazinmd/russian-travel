@@ -1,5 +1,4 @@
 .places__place__image {
   border: 1.1px solid royalblue;
-  max-width: 480px;
-  height: auto;
+  width: 100%;
 }
