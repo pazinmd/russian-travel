@@ -6,3 +6,15 @@
     width: calc(100% - 96px);
     border: 1.1px solid royalblue;
 }
+
+@media screen and (max-width:768) {
+    .header {
+        width: calc(100% - 48px);
+    }
+}
+
+@media screen and (max-width:320) {
+    .header {
+        width: calc(100% - 32px);
+    }
+}

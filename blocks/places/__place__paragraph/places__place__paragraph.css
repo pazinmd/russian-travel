@@ -3,5 +3,28 @@
   margin: 0;
   padding: 0;
   font-size: 18px;
-  line-height: 163%;
+  line-height: 1.63;
 }
+
+.places__place__paragraph:last-of-type {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 320px) {
+  .places__place__paragraph {
+    margin: 0 auto 25px auto;
+    max-width: 90%;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .places__place__paragraph {
+    font-size: 16px;
+    line-height: 26px;
+    /* margin-left: 16px; */
+  }
+}
+
+
+
