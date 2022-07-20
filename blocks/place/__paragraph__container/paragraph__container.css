@@ -1,0 +1,23 @@
+.place__paragraph__container {
+  /* border: 1.1px solid royalblue; */
+  display: grid;
+  grid-template-rows: min-content max-content;
+  row-gap: 26px;
+}
+
+@media screen and (max-width:767px) {
+  .place__paragraph__container {
+   padding-left: 16px ;
+   padding-right: 16px ;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__paragraph__container {
+    padding-left: 0 ;
+    padding-right: 0 ;
+    max-width: 100%;
+    margin: 0 auto;
+    row-gap: 0;
+  }
+}

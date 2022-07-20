@@ -19,5 +19,6 @@
     .intro__title {
         line-height: 35px;
         font-size: 32px;
+        padding-bottom: 0;
     }
 }

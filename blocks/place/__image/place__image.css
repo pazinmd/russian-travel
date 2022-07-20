@@ -1,10 +1,10 @@
-.places__place__image {
+.place__image {
   /* border: 1.1px solid royalblue; */
   max-width: 100%;
 }
 
 @media screen and (max-width: 767px) {
-  .places__place__image {
+  .place__image {
     grid-row: auto;
   }
 }

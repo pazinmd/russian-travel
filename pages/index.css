@@ -8,9 +8,9 @@
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/__logo/header__logo.css');
 @import url('../blocks/header/__lang-list/header__lang-list.css');
+@import url('../blocks/header/__list-item/header__list__item.css');
 @import url('../blocks/header/__lang-link/header__lang-link.css');
-@import url('../blocks/header/__lang-link-select/header__lang-link-select.css');
-@import url('../blocks/header/__lang-link-select/__lang-link-select_active/header__lang-link-select_active.css');
+@import url('../blocks/header/__lang-link/_active/header__lang-link_active.css');
 
 /* Подключаем стили элементов секции lead */
 @import url('../blocks/lead/lead.css');
@@ -31,23 +31,22 @@
 @import url('../blocks/photo-grid/photo-grid.css');
 @import url('../blocks/photo-grid/__item/photo-grid__item.css');
 
-/* Подключаем стили элементов секции places */
+/* Подключаем стили элементов секции places и place */
 @import url('../blocks/places/places.css');
-@import url('../blocks/places/__place/places_place.css');
-@import url('../blocks/places/__place__title/places__place__title.css');
-@import url('../blocks/places/__place__image/places__place__image.css');
-@import url('../blocks/places/__place__paragraph/places__place__paragraph.css');
-@import url('../blocks/places/__place__paragraph__container/places__paragraph__container.css');
-@import url('../blocks/places/__place__website/places__place__website.css');
-@import url('../blocks/places/__place__website__link/places__place__website__link.css');
-@import url('../blocks/places/__place__website__url-heading/places__place__url-heading.css');
+@import url('../blocks/place/place.css');
+@import url('../blocks/place/__title/place__title.css');
+@import url('../blocks/place/__image/place__image.css');
+@import url('../blocks/place/__paragraph/place__paragraph.css');
+@import url('../blocks/place/__paragraph__container/paragraph__container.css');
+@import url('../blocks/place/__website/place__website.css');
+@import url('../blocks/place/__website__link/place__website__link.css');
+@import url('../blocks/place/__website__url-heading/place__url-heading.css');
 
 /* Подключаем стили элементов секции cover */
 @import url('../blocks/cover/cover.css');
 @import url('../blocks/cover/__background/cover__background.css');
 @import url('../blocks/cover/__title/cover__title.css');
 @import url('../blocks/cover/__subtitle/cover__subtitle.css');
-@import url('../blocks/cover/__link/cover__link.css');
 
 /* Подключаем стили элементов раздела footer */
 @import url('../blocks/footer/footer.css');

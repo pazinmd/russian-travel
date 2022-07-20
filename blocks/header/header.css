@@ -4,17 +4,32 @@
     margin: 0 auto;
     box-sizing: border-box;
     width: calc(100% - 96px);
-    /* border: 1.1px solid royalblue; */
+    max-width: 1184px;
+    padding-top: 28px;
+    padding-bottom: 56px;
 }
 
-@media screen and (max-width:768) {
+@media screen and (max-width: 1024px) {
+    .header {
+      padding-bottom: 48px;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
     .header {
         width: calc(100% - 48px);
     }
 }
-
-@media screen and (max-width:320) {
+@media screen and (max-width: 320px) {
     .header {
         width: calc(100% - 32px);
     }
 }
+
+@media screen and (max-width: 480px) {
+    .header {
+        padding-top: 16px;
+    }
+}
+
