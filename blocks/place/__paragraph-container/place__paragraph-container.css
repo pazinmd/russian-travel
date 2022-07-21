@@ -1,19 +1,18 @@
-.place__paragraph__container {
+.place__paragraph-container {
   /* border: 1.1px solid royalblue; */
   display: grid;
-  grid-template-rows: min-content max-content;
   row-gap: 26px;
 }
 
 @media screen and (max-width:767px) {
-  .place__paragraph__container {
+  .place__paragraph-container {
    padding-left: 16px ;
    padding-right: 16px ;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .place__paragraph__container {
+  .place__paragraph-container {
     padding-left: 0 ;
     padding-right: 0 ;
     max-width: 100%;
